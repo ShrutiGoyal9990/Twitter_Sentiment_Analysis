@@ -13,7 +13,11 @@ A dataset is a collection of data that is stored for a specific purpose. In this
 ## 3.1 Logistic Regression
 Logistic Regression is a foundational principle in statistics and machine learning that plays a crucial role in binary and multi-class classification tasks. Contrary to popular belief, logistic regression is a classification algorithm rather than a regression algorithm. It is used to forecast the likelihood that a specific input instance belongs to a specific class. The result of logistic regression is a probability value that lies between 0 and 1 using the logistic function, also known as the sigmoid function.
 
+
+
+
 ![lr_ac](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/277d0f3c-26d2-42d8-9a4f-af917244d32d)
+
 ![lr_cr](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/14ffa3cb-1496-4ea9-9c63-e2fff687ba0c)
 
 ## 3.2 XGBoost
