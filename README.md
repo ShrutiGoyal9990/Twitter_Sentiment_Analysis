@@ -31,19 +31,30 @@ It builds an ensemble of decision trees, where each tree is trained on a differe
 ![rf_cr](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/fdf996ca-6433-4807-b75b-676c6f2a580c)
 
 ## 3.4 Support Vector Machine
-The Support Vector Machine (SVM) is a supervised learning technique that primarily focuses on locating the best hyperplane in an N-dimensional space capable of dividing the data points into various classes while maximizing the margin between them. The margin is the distance between the hyperplane and the support vectors. SVM can perform both 
-linear and non-linear classification by using different kernel functions. It offers several advantages especially when one is dealing with high dimensional data and complex decision boundaries however it has certain limitations as well such as sensitivity to noise, hyperparameter sensitivity, etc.
+The Support Vector Machine (SVM) is a supervised learning technique that primarily focuses on locating the best hyperplane in an N-dimensional space capable of dividing the data points into various classes while maximizing the margin between them. The margin is the distance between the hyperplane and the support vectors. SVM can perform both linear and non-linear classification by using different kernel functions. It offers several advantages especially when one is dealing with high dimensional data and complex decision boundaries however it has certain limitations as well such as sensitivity to noise, hyperparameter sensitivity, etc.
 ![sv_ac](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/9822d62f-1926-4e82-b2e4-fbabbf2950b4)
 ![sv_cr](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/f3bfc893-b0ea-48ea-ad6f-edba0872c8f3)
 
 ## 3.5 Multinomial Naive Bayes
-Natural language processing (NLP) and text classification applications frequently employ the probabilistic classification algorithm known as Multinomial Naive Bayes. It is a 
-modification of the Naive Bayes algorithm created to deal with datasets that have discrete feature counts and numerous classes. It works by using the Bayes theorem to classify data into different classes based on the probabilities of observing specific features. Its suitability for features with discrete counts, such as word frequencies in text documents makes it a sensible choice for sentiment analysis, however similar to SVM, this algorithm is also sensitive to noise in the data.
+Natural language processing (NLP) and text classification applications frequently employ the probabilistic classification algorithm known as Multinomial Naive Bayes. It is a modification of the Naive Bayes algorithm created to deal with datasets that have discrete feature counts and numerous classes. It works by using the Bayes theorem to classify data into different classes based on the probabilities of observing specific features. Its suitability for features with discrete counts, such as word frequencies in text documents makes it a sensible choice for sentiment analysis, however similar to SVM, this algorithm is also sensitive to noise in the data.
 ![nb_ac](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/46f0ef12-1f40-4b51-91bc-cdab05efb9ae)
 ![nb_cr](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/6f6c5a21-9ce9-4f58-9632-7f89bbab6834)
 
+## 3.6 Ensemble Method
+Ensemble methods are machine learning techniques that combine the predictions of multiple individual models (base learners) to improve the overall performance, robustness, and generalization of the final model. These methods harness the strengths of different models to create a stronger and more accurate predictive model. They are especially effective when dealing with noisy or complex data and when there are variations in the model's predictions. I've created an ensemble using majority voting from the predictions of two classifiers: Naive Bayes and Support Vector Machine.
 
 
+![en_ac](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/7123cdac-8beb-44e6-b9c2-f3b5fbb54ac5)
+![en_cr](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/3451828d-313c-412a-a84e-fe3a6b7b1bfc)
+
+## 4. Comparison
+The following figure shows the accuracies of all the models used.
+![twitter table](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/9ef06f3b-3223-48a2-a9c5-0cd14c86f0cb)
+
+## 5. Conclusion
+This project exploits five supervised machine learning algorithms, stated as, Linear Regression, XGBoost, Random Forest, Support Vector Machine, Multinomial Naive Bayes and ensemble method to successfully classify four sentiments (‘positive’, ‘negative’, ‘neutral’, ‘irrelevant’) among the total of 69,491 unique tweets.
+
+Logistic Regression appears to be one of the most suited algorithms for this purpose as it showed the highest accuracy that is about 92.6%. 
 
 
 
