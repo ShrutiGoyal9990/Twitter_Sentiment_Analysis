@@ -9,6 +9,8 @@ The dataset used in this research has been taken from Kaggle and various models 
 ## 2. About the Dataset
 A dataset is a collection of data that is stored for a specific purpose. In this segment, I collected our data from the “Twitter Sentiment Analysis” Dataset available on Kaggle. There are a total of 69,491 tweets in the training dataset in which the positive values are “19,457”, negative values are “20,847” and other values are “29,187”. The primary confusion classes include positive, negative, neutral, and irrelevant. The validation dataset includes a total of 998 unique values. 
 
+DATASET LINK : https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis
+
 ## 3. Algorithms Used
 ## 3.1 Logistic Regression
 Logistic Regression is a foundational principle in statistics and machine learning that plays a crucial role in binary and multi-class classification tasks. Contrary to popular belief, logistic regression is a classification algorithm rather than a regression algorithm. It is used to forecast the likelihood that a specific input instance belongs to a specific class. The result of logistic regression is a probability value that lies between 0 and 1 using the logistic function, also known as the sigmoid function.
