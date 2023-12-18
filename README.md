@@ -1,5 +1,5 @@
 # **TWITTER SENTIMENT ANALYSIS**
-# 1. INTRODUCTION 
+# 1. Introduction
 In an era where technology has taken the world by storm, the digital age has completely transformed the way we communicate, connect, and acquire information with the world around us. However, beneath the synthetic reality, there lies the need for sentiment analysis.
 
 Sentiment Analysis, or Emotion AI is a natural language processing (NLP) approach that involves determining the sentiment or emotional tone expressed in a piece of text. It is used to recognize polarity in text, and hence evaluate the author's attitude towards a particular thing, administration, person, or place and determine whether it is negative, positive, irrelevant, or neutral.
