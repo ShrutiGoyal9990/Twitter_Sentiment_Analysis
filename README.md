@@ -54,7 +54,7 @@ The following figure shows the accuracies of all the models used.
 ![twitter table](https://github.com/ShrutiGoyal9990/Twitter_Sentiment_Analysis/assets/121054868/9ef06f3b-3223-48a2-a9c5-0cd14c86f0cb)
 
 ## 5. Conclusion
-This project exploits five supervised machine learning algorithms, stated as, Linear Regression, XGBoost, Random Forest, Support Vector Machine, Multinomial Naive Bayes and ensemble method to successfully classify four sentiments (‘positive’, ‘negative’, ‘neutral’, ‘irrelevant’) among the total of 69,491 unique tweets.
+This project exploits five supervised machine learning algorithms, stated as, Logistic Regression, XGBoost, Random Forest, Support Vector Machine, Multinomial Naive Bayes and ensemble method to successfully classify four sentiments (‘positive’, ‘negative’, ‘neutral’, ‘irrelevant’) among the total of 69,491 unique tweets.
 
 Logistic Regression appears to be one of the most suited algorithms for this purpose as it showed the highest accuracy that is about 92.6%. 
 
